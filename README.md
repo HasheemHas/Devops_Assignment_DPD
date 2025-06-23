@@ -28,8 +28,8 @@ All are running in Docker containers using Docker Compose.
 
 1. Clone the project:
    
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd 
+   git clone https://github.com/HasheemHas/Devops_Assignment_DPD.git
+   cd Devops_Assignment_DPD
 
 Start everything:
 
