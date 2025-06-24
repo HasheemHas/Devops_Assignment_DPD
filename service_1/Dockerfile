@@ -2,5 +2,7 @@ FROM golang:1.22-alpine
 WORKDIR /app
 COPY . .
 RUN go build -o main .
-EXPOSE 8080
+RUN apk add --no-cache curl
+EXPOSE 8001
 CMD ["./main"]
+
